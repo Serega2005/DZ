@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 bool prostoe(int n)
@@ -12,7 +12,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int cislo;
-    cout << "Ââåäèòå ÷èñëî äî êîòîðîãî áóäóò âûâîäèòüñÿ ïðîñòûå ÷èñëà:"; cin >> cislo;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð¾ ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð±ÑƒÐ´ÑƒÑ‚ Ð²Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒÑÑ Ð¿Ñ€Ð¾ÑÑ‚Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð°:"; cin >> cislo;
     for (int n = 1; n <= cislo; n++)
     {
         if (prostoe(n))
